@@ -10,6 +10,12 @@
 
   <div id="posts" class="posts-expand">
     {{ post_template.render(page) }}
+
+    {% if theme.add_this_id %}
+      <div>
+        {% include '_partials/share/add-this.swig' %}
+      </div>
+    {% endif %}
   </div>
 
 {% endblock %}
