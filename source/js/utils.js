@@ -367,7 +367,7 @@ $(document).ready(function () {
     $(window).on("scroll", () => {
       $(".gooAd").css(
         "margin-top",
-        $(".affix").height() + +NexT.utils.getSidebarb2tHeight() + 15 + "px"
+        $(".affix-top").height() + +NexT.utils.getSidebarb2tHeight() + 15 + "px"
       );
     });
 
