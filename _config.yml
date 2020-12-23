@@ -58,7 +58,7 @@ footer:
     # If you want to animate the icon, set it to true.
     animated: false
     # Change the color of icon, using Hex Code.
-    color: '#808080'
+    color: "#808080"
 
   # If not defined, `author` from Hexo main config will be used.
   copyright:
@@ -216,7 +216,6 @@ links_layout: block
 #links_layout: inline
 links:
   The Will Will Web | Will 保哥: https://blog.miniasp.com/
-  點燈坊: https://lambda4.fun/
   全端開發人員天梯: https://wellwind.idv.tw/blog/
   POY CHANG | Trial and Error: https://poychang.github.io/
   Jeffs WebTech Note: https://jeffwu85182.github.io/
@@ -396,7 +395,7 @@ post_edit:
 mobile_layout_economy: false
 
 # Android Chrome header panel color ($brand-bg / $headband-bg => $black-deep).
-android_chrome_color: '#222'
+android_chrome_color: "#222"
 
 # Hide sticky headers and color the menu bar on Safari (iOS / macOS).
 safari_rainbow: false
@@ -425,8 +424,8 @@ tagcloud:
   # All values below are same as default, change them by yourself
   min: 12 # min font size in px
   max: 30 # max font size in px
-  start: '#ccc' # start color (hex, rgba, hsla or color keywords)
-  end: '#111' # end color (hex, rgba, hsla or color keywords)
+  start: "#ccc" # start color (hex, rgba, hsla or color keywords)
+  end: "#111" # end color (hex, rgba, hsla or color keywords)
   amount: 200 # amount of tags, change it if you have more than 200 tags
 
 # ---------------------------------------------------------------
@@ -569,7 +568,7 @@ bookmark:
 # Dependencies: https://github.com/theme-next/theme-next-reading-progress
 reading_progress:
   enable: false
-  color: '#37c6c0'
+  color: "#37c6c0"
   height: 2px
 
 # Google Calendar
@@ -828,7 +827,7 @@ algolia_search:
   labels:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}"
-    hits_stats: '${hits} results found in ${time} ms'
+    hits_stats: "${hits} results found in ${time} ms"
 
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
@@ -965,7 +964,7 @@ pace_theme: pace-theme-minimal
 canvas_nest:
   enable: false
   onmobile: true # display on mobile or not
-  color: '0,0,255' # RGB values, use ',' to separate
+  color: "0,0,255" # RGB values, use ',' to separate
   opacity: 0.5 # the opacity of line: 0~1
   zIndex: -1 # z-index property of the background
   count: 99 # the number of lines
