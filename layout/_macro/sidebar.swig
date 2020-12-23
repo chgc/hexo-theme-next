@@ -205,8 +205,12 @@
           {% endif %}
         </div>
       {% endif %}
-
+      <div class="gooAd sidebar-inner" style="display: block;">
+        <!-- Google AdSense start -->
+        {% include '../_custom/sidebar_ad.ejs' %}
+      </div>
     </div>
+
   </aside>
   {% if theme.sidebar.dimmer %}
     <div id="sidebar-dimmer"></div>
