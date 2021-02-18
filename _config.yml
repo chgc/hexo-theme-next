@@ -360,7 +360,7 @@ codeblock:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: true
   # Scroll percent label in b2t button.
   scrollpercent: false
 
@@ -980,3 +980,11 @@ vendors:
 css: css
 js: js
 images: images
+
+google_adsense:
+  enable: true
+  google_ad_client_id: ca-pub-7997572949867824 # 請修改成自己的
+  enable_page_level_ads: true
+  ## siderbar_enable 這邊建立廣告後才會用到
+  siderbar_enable: true # 是否開啟側邊欄廣告
+  siderbar_data_ad_slot: 3959999538 # 請輸入廣告 slot
