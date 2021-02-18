@@ -253,6 +253,12 @@
         <div class="post-eof"></div>
       </footer>
     {%- endif %}
+
+    {% if theme.add_this_id %}
+      <div>
+        {{ partial('_partials/share/add-this.swig') }}        
+      </div>
+    {% endif %} 
   </article>
   {######################}
   {### END POST BLOCK ###}

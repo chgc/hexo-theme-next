@@ -7,17 +7,9 @@
 
 {% block content %}
 
-  <div id="posts" class="posts-expand">
-   {{ partial('_macro/post.swig', {post: page}) }}
-
-    {% if theme.add_this_id %}
-      <div>
-        {% include '_partials/share/add-this.swig' %}
-      </div>
-    {% endif %}
-  </div>
+{{ partial('_macro/post.swig', {post: page}) }} 
   
-
+ 
 {% endblock %}
 
 {% block sidebar %}
